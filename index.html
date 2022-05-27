@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Quickart</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+
+
+<script>
+  
+  var firebaseConfig = {
+  apiKey: "AIzaSyC-xzKrTWSdZEcNHLlXWV-KwP7eKhCnJdM",
+  authDomain: "quickart-c9fa8.firebaseapp.com",
+  projectId: "quickart-c9fa8",
+  storageBucket: "quickart-c9fa8.appspot.com",
+  messagingSenderId: "412948602804",
+  appId: "1:412948602804:web:82bbdcf0143084f2af9ce1"
+};
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo (2).png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    
+                    <li> <input type="text" placeholder=" Search"><button id="b1" type="button"><img src="images/search2.png" width="50%"height="36%"></button> 
+                   
+                    </li> 
+                    <li><a href=""><button id="b2"><img src="images/cart.png" alt="Cart" width="20px" height="20px"></button></a></li>
+                
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Account</a></li>
+                    
+                </ul>
+      
+
+
+            </nav>
+        </div>
+        <br>
+        
+        <div class="cat">   
+            <ul>
+                <li><a href="">Categories</a></li>
+            </ul>
+         </div>
+
+    </div>
+
+</body>
+</html>
