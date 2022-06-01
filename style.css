@@ -14,6 +14,7 @@ body{
 nav{
     flex:1;
     text-align:right;
+
 }
 
 nav ul{
@@ -23,7 +24,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin:20px;
+    margin:18px;
 }
 
 a{
@@ -42,8 +43,9 @@ p{
 }
 
 input{
+    
     width:400px;
-    height:35px;
+    height: 40px;
     border-color:red;
 
     border-top-left-radius: 5px;
@@ -70,5 +72,23 @@ input{
 .cat{
     display:flex;
     list-style:none;
-    background-color: white;
+    background-color: lightgrey;
+    margin-right:10px;
+    border-radius: 10px;
+  
 }
+
+.link{
+    list-style:none;
+    margin: 15px;
+  
+}
+#myCarousel{
+    border-radius: 10px;
+}
+
+ #myCarousel img { height: 300px; width:1200px; border-radius: 10px;} 
+
+ #u1{
+     
+ }
